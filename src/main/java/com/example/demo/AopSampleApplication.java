@@ -20,10 +20,10 @@ public class AopSampleApplication {
 
     /** 実行 */
     private void exe() {
-        service.sayHello("太郎");
+        service.sayHello("次郎");
         // わかりやすいように区切りを表示
         System.out.println("■□■□■□■□■□");
-        service.sayGoodbye("花子");
+        service.sayGoodbye("三郎");
     }
 
 
