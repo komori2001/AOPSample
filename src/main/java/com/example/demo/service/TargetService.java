@@ -6,11 +6,12 @@ import org.springframework.stereotype.Service;
 public class TargetService {
     
     public void sayHello(String name) {
-        System.out.println("こんにちは, " + name + "!");
+
+        System.out.println("Hungry, " + name + "!");
     }
 
     public void sayGoodbye(String name) {
-        System.out.println("Goodbye, " + name + "!");
+        System.out.println("こんばんわ, " + name + "!");
     }
 
 
